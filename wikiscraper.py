@@ -45,5 +45,4 @@ headnames = ['metroarea', 'est2013', 'census2010', 'change', 'statarea']
 population = pd.read_table('output.dat',
                       sep='::', header=None, names=headnames, engine='python')
 print(population)
-
-population.describe()
+print(population.describe())
